@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Images.html/logo-1.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Images.html/logo-1.png">
+
+    <!-- cdn link for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- cdn link for icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- link for css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- start of Header -->
+    <header class="bg-secondary">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="./index.html">E-<span class="text-danger">Mart</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="productpage.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cartpage.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutpage.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="contactpage.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="register.html" class="btn btn-primary rounded-pill me-3">Register</a>
+                        <a href="login.html" class="btn btn-primary rounded-pill">Login</a>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <!-- end of Header -->
+
+    <!-- start of main -->
+
+    <main>
+        <h2 class="text-center fw-bold mt-5">Contact Us</h2>
+        <p class="text-center fs-5 text-success">We are here to help you with any questions.Please call us or
+            leave us a message</p>
+        <div class="contact d-md-flex justify-content-evenly my-2">
+            <div class="map col-md-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.780722748411!2d85.2785684738306!3d27.69317137619064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb187a97f390b1%3A0xec3f47092df0d4ca!2z4KSV4KSy4KSC4KSV4KWALCDgpJXgpL7gpKDgpK7gpL7gpKHgpYzgpIEgNDQ2MDA!5e0!3m2!1sne!2snp!4v1736495664264!5m2!1sne!2snp"
+                    width="100%" height="70%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="form-container col-md-4">
+               
+                <form class="contact-form">
+                    <div class="form-floating mb-2">
+                        <input name="fname" id="fname" placeholder="" class="form-control">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input name="lname" id="lname" placeholder="" class="form-control">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input name="email" id="email" placeholder="" class="form-control">
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="form-floating mb-2">
+                        <select name="country" id="country" class="form-select">
+                            <option value="nepal">Nepal</option>
+                            <option value="india">India</option>
+                            <option value="china">China</option>
+                        </select>
+                        <label for="country">Country</label>
+                </div>
+
+                <div class="form-floating">
+                    <textarea name="subject" id="subject" placeholder="" class="form-control" style="height: 200px;"></textarea>
+                    <label for="subject">Subject</label>
+                </div>
+                    <input type="submit" class="btn btn-primary w-100">
+                </form>
+            </div>
+
+        </div>
+        </div>
+    </main>
+    <!-- end of main -->
+
+    <!-- start of footer -->
+
+    <footer class="p-5 bg-secondary-subtle mt-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- end of footer -->
+
+
+    <!-- cdn script for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

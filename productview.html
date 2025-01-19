@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Images.html/logo-1.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Images.html/logo-1.png">
+
+    <!-- cdn link for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- cdn link for icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- link for css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- start of Header -->
+    <header class="bg-secondary">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="./index.html">E-<span class="text-danger">Mart</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active fw-bold " href="productpage.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cartpage.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutpage.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactpage.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="register.html" class="btn btn-primary rounded-pill me-3">Register</a>
+                        <a href="login.html" class="btn btn-primary rounded-pill">Login</a>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <!-- end of Header -->
+
+   <!-- start of main -->
+<main>
+ <div class="container py-5 shadow rounded -3 bg-success-subtle">
+    <div class="d-flex justify-content-evenly">
+        <div class="col-md-4">
+            <img src="./Images.html/img-1.jpeg" alt="product1" width="100%" height="100%">
+          
+           
+        </div>
+
+        <div class="col-md-6">
+            <p>
+                <a href="index.html">Home</a> /
+                <a href="productpage.html">Products</a> /
+                <small class="text-secondary">Product Name</small>
+            </p>
+
+            <h2>Product Title</h2>
+            <small class="secondary">Category</small>
+            <p class="fw-bold mt-3">Price: <span class="text-success" >Rs.600</span></p>
+
+             <p>Quantity</p>
+            <div class="d-flex col-5">
+                <button class="btn btn-secondary"> - </button>
+                <input type="text" value="1" class="form-control text-center w-25" readonly>
+                <button class="btn btn-secondary"> + </button>
+            </div>
+
+            <p class="mt-3 text-warning">
+                <small class="text-dark">Rate :</small>
+                <i class=" bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+            </p>
+            <div class="d-flex mt-4">
+                <button class="btn btn-danger me-4">Buy Now</button>
+                <button class="btn btn-warning">Add To Cart</button>
+            </div>
+            
+        </div>
+       
+
+    </div>
+    <hr>
+    <p class="fw-bold mt-4">Description</p>
+    <p class="text-secondary-dark mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis magni earum maiores repellendus qui quos at, quasi nemo tempora odio distinctio voluptatum tempore voluptas doloremque inventore quis odit ratione obcaecati provident eum natus quae voluptates minus? Numquam quibusdam odit id quis non nemo tempore, natus repellendus quisquam ab libero qui voluptatem a mollitia, dolorum esse, corporis in molestias obcaecati officia nisi autem animi laboriosam quo. Quaerat voluptate doloremque magni officia similique accusantium odio. Molestias, minima facere! Dolorem, voluptate accusamus quae sunt repellat hic, sapiente ut alias perspiciatis eos ab unde molestias corrupti dolorum dolor id aperiam reprehenderit illo similique.
+
+    </p>
+    
+ </div>
+
+</main>
+<!-- end of main -->
+   
+
+    <!-- start of footer -->
+
+    <footer class="p-5 bg-secondary-subtle">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- end of footer -->
+
+
+    <!-- cdn script for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

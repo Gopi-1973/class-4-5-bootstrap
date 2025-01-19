@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Images.html/logo-1.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Images.html/logo-1.png">
+
+    <!-- cdn link for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- cdn link for icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- link for css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- start of Header -->
+    <header class="bg-secondary">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="./index.html">E-<span class="text-danger">Mart</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  " href="productpage.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="cartpage.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutpage.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactpage.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="register.html" class="btn btn-primary rounded-pill me-3">Register</a>
+                        <a href="login.html" class="btn btn-primary rounded-pill">Login</a>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <!-- end of Header -->
+
+   <!-- start of main -->
+<main>
+<div class="d-flex justify-content-evenly mt-5">
+    <div class="col-md-8 shadow rounded-4 ">
+
+     <table class="table table-bordered table-stripped table-hover col-md-2 mt-5 shadow rounded-4 ">
+        <thead>
+            <tr>
+                <th>s.No.</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Category</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Product One</td>
+                <td>Rs.500</td>
+                <td>2</td>
+                <td>Product Category</td>
+                <td><img src="./Images.html/img-1.jpeg" alt="product" width="100px"></td>
+                <td>
+                    <a href="#" class="btn btn-info btn-sm"><i class="bi bi-pencil-square"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm"><i class="bi bi-trash3 "></i></i></a>
+                </td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>Product Two</td>
+                <td>Rs.1800</td>
+                <td>1</td>
+                <td>Product Category</td>
+                <td><img src="./Images.html/img-3.jpg" alt="product" width="100px"></td>
+                <td>
+                    <a href="#" class="btn btn-info btn-sm"><i class="bi bi-pencil-square"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm" ><i class="bi bi-trash3" width="10px"></i></i></a>
+                </td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>3</td>
+                <td>Product Three</td>
+                <td>Rs.800</td>
+                <td>1</td>
+                <td>Product Category</td>
+                <td><img src="./Images.html/img-2.jpeg" alt="product" width="100px"></td>
+                <td>
+                    <a href="#" class="btn btn-info btn-sm"><i class="bi bi-pencil-square"></i></a>
+                    <a href="#" class="btn btn-danger btn-sm" ><i class="bi bi-trash3" width="10px"></i></i></a>
+                </td>
+            </tr>
+        </tbody>
+
+     </table>
+    
+        </div>
+        <div class="col-md-3">
+            <section class="shadow p-3">
+                <h2>Cart Summary</h2>
+                <hr>
+                <p class="semi-bold text-secondary">Total Quantity : <span class="text-success">4 units</span></p>
+                <p class="fw-semibold text-secondary">Total Price : <span class="text-success"> Rs3600 </span></p>
+                <hr>
+                <button class="btn btn-success">Checkout</button>
+            </section>
+        </div>
+    </div>
+</div>
+
+</main>
+<!-- end of main -->
+   
+
+    <!-- start of footer -->
+
+    <footer class="p-5 bg-secondary-subtle mt-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- end of footer -->
+
+
+    <!-- cdn script for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

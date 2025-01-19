@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./Images.html/logo-1.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./Images.html/logo-1.png">
+
+  <!-- cdn link for bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- cdn link for icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- link for css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- start of Header -->
+  <header class="bg-secondary">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3" href="./index.html">E-<span class="text-danger">Mart</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="productpage.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cartpage.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutpage.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="register.html" class="btn btn-primary rounded-pill me-3">Register</a>
+            <a href="login.html" class="btn btn-primary rounded-pill">Login</a>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </nav>
+  </header>
+  <!-- end of Header -->
+
+
+
+  <!-- start of main Section -->
+
+  <main>
+    <!-- start of banner -->
+    <div id="banner" style="height: 100vh;">
+      <div id="carouselExampleAutoplaying" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-inner border rounded-4" style="width: ;">
+          <div class="carousel-item active mt-5">
+            <img src="./Images.html/ban-1.jpg" class="d-block w-100" alt="banner">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images.html/ban-2.jpeg" class="d-block w-100" alt="banner">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images.html/ban-3.jpg" class="d-block w-100" alt="banner">
+          </div>
+          <div id="element"></div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class=" banner-card d-lg-flex d-none justify-content-evenly px-5 py-3 ">
+
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title ">Delivery</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="card-link text-danger text-decoration-none"><span> <i class="bi bi-arrow-right-short">
+                  </i></span>More Info</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title ">Delivery</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="card-link text-danger text-decoration-none"><span> <i class="bi bi-arrow-right-short">
+                  </i></span>More Info</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title ">Delivery</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="card-link text-danger text-decoration-none"><span> <i class="bi bi-arrow-right-short">
+                  </i></span>More Info</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title ">Delivery</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="card-link text-danger text-decoration-none"><span> <i class="bi bi-arrow-right-short">
+                  </i></span>More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <!-- end of bannner -->
+
+
+    <!-- start of About page -->
+    <h1 class="text-center mt-3 text-body-secondary">About Us</h1>
+
+    <div class="about-section d-md-flex justify-content-evenly p-3">
+      <div class="about-image col-md-4">
+        <img src="./Images.html/ban-3.jpg" alt="" width="100%">
+      </div>
+      <div class="about-text col-md-6">
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloremque non porro
+          saepe nostrum ea, libero exercitationem nulla accusantium, adipisci, nobis modi! Reprehenderit, ex. Pariatur
+          ducimus recusandae eveniet porro consequuntur sit earum illo facilis qui eligendi quibusdam, incidunt
+          molestias aspernatur? Perspiciatis ullam similique sit doloribus iure nihil enim maxime quisquam debitis,
+          architecto harum perferendis voluptas odit placeat eum aliquid maiores aspernatur culpa excepturi odio omnis
+          voluptatibus iusto consequatur rerum. Qui pariatur beatae nulla eius amet, in commodi voluptatem veniam odit
+          ipsum quia dolores nisi. Nulla officiis quaerat nam eveniet id repudiandae placeat qui debitis. Quibusdam
+          repellendus molestias iusto voluptatum eos quia aliquid velit eum autem, minus laudantium dolores vero minima
+          tempore maiores saepe eaque id sapiente, inventore aliquam culpa ad atque! Explicabo, eius laboriosam. Aut at
+          hic minima asperiores veniam rem tenetur officia excepturi sint iusto, totam voluptates cum culpa ea, maiores
+          dolor ratione, iste error libero! Architecto vitae nisi rerum voluptatibus! Quasi sint magnam quo nisi maiores
+          quis quae porro! Vitae doloremque minima pariatur eveniet in accusamus repellendus autem dignissimos, numquam
+          possimus voluptatum eaque harum explicabo provident eius, facere error impedit quod necessitatibus itaque
+          dolores aliquid! Rerum facere, quae hic expedita similique, necessitatibus quas aliquid, illum dignissimos
+          tempore quos.</p>
+      </div>
+    </div>
+
+    <div id="team" class="my-5">
+      <h2 class="text-body-success  text-center">Our Team</h2>
+      <hr>
+      <div class="container-about d-md-flex justify-content-evenly mt-3">
+        <div class="card-about border">
+          <img src="./Images.html/img-about1.jpeg" class="card-img-top" alt="..." height="50%">
+          <div class="card-body">
+            <h5 class="card-title text-center">John Candy</h5>
+            <p class="text-body-secondary text-center fw-semibold">Founder & Ceo</p>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">john_candy@gmail.com</a>
+            <p class="my-2"><button class="btn btn-primary w-100">Contact</button></p>
+          </div>
+        </div>
+
+        <div class="card-about border">
+          <img src="./Images.html/img-about2.jpeg" class="card-img-top" alt="..." height="50%">
+          <div class="card-body">
+            <h5 class="card-title text-center">Andrew Carlos</h5>
+            <p class="text-body-secondary text-center fw-semibold">Web Designer</p>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">andrew_carlos@gmail.com</a>
+            <p class="my-2"><button class="btn btn-primary w-100">Contact</button></p>
+          </div>
+        </div>
+
+        <div class="card-about border">
+          <img src="./Images.html/img-about3.jpg" class="card-img-top" alt="" height="50%">
+          <div class="card-body">
+            <h5 class="card-title text-center">Mauro Doe</h5>
+            <p class="text-body-secondary text-center fw-semibold">Director</p>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#">mauro_doe@gmail.com</a>
+            <p class="my-2"><button class="btn btn-primary w-100">Contact</button></p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- end of About page -->
+
+    <!-- start of New Arrivals -->
+    <div class="container py-3 mt-5 " id="arrivals">
+      <h2 class="text-success bg-warning-subtle text-center">New Arrivals</h2>
+    </div>
+
+    <div class="d-md-flex justify-content-evenly my-4">
+      <div class="card border shadow rounded" style="width: 18rem;">
+        <img src="./Images.html/img-1.jpeg" class="card-img-top" alt="img1">
+        <div class="card-body text-center">
+          <h5 class="card-title ">Sweat Shirts</h5>
+          <p>Price : <span class="text-danger fs-bold">Rs 1500</span></p>
+           <a href="#" class=" mx-3 btn btn-primary "><i class="3bi bi-eye-fill"></i> View More</a>
+        </div>
+      </div>
+
+      <div class="card border shadow rounded" style="width: 18rem;">
+        <img src="./Images.html/img-2.jpeg" class="card-img-top" alt="img2">
+        <div class="card-body text-center">
+          <h5 class="card-title ">Sandals</h5>
+          <p>Price : <span class="text-danger fs-bold">Rs 1000</span></p>
+          <a href="#" class=" mx-3 btn btn-primary"><i class=" 3bi bi-eye-fill"></i> View More</a>
+        </div>
+      </div>
+
+      <div class="card border shadow rounded" style="width: 18rem;">
+        <img src="./Images.html/img-3.jpg" class="card-img-top" alt="img3">
+        <div class="card-body text-center">
+          <h5 class="card-title ">Mens Boot</h5>
+          <p>Price : <span class="text-danger fs-bold">Rs 3500</span></p>     
+          <a href="#" class=" mx-3 btn btn-primary"><i class=" 3bi bi-eye-fill"></i> View More</a>
+        </div>
+      </div>
+
+      <div class="card border shadow rounded" style="width: 18rem;">
+        <img src="./Images.html/img-4.jpeg" class="card-img-top" alt="img4">
+        <div class="card-body text-center">
+          <h5 class="card-title ">T-shirs</h5>
+          <p>Price : <span class="text-danger fs-bold">Rs 700</span></p>       
+          <a href="#" class=" mx-3 btn btn-primary"><i class=" 3bi bi-eye-fill"></i> View More</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- end of New Arrivals -->
+
+    <!-- start of accordion -->
+
+    <div class=" p-5 my-5 d-flex align-items-center justify-content-evenly" id="accordion">
+
+      <div class="accordion col-6 my-5">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-image col-5">
+        <img src="./Images.html/svg-img.png" alt="image" width="100%" height="100%">
+      </div>
+    </div>
+    <!-- end of accordion -->
+
+    <!-- start of footer -->
+
+    <footer class="p-5 bg-secondary-subtle">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cart</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- end of footer -->
+  </main>
+
+
+  <!-- cdn script for bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- cdn for Typed js -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed6 = new Typed('#element', {
+      strings: [`npm install <br>installing components...<br> Fetching from source...`],
+      typeSpeed: 40,
+      backSpeed: 0,
+      loop: true
+    });
+
+  </script>
+
+</body>
+
+</html>

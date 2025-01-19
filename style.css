@@ -1,0 +1,92 @@
+/* header */
+ 
+
+
+/* carousel */
+.carousel-item {
+    height: 70vh;
+
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+.carousel {
+    position: relative;    
+}
+
+.carousel #element {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    font-size: 25px;
+    color: rgb(202, 55, 55);
+    text-shadow: 0 0 3px blue;
+}
+
+.carousel .banner-card{
+    position: absolute;
+    bottom:-120px;
+    gap: 30px;
+    width: 100%;
+}
+@media screen and (max-width:767px){
+  .carousel{
+    position: static;
+  }
+  .carousel .banner-card{
+    position: static;
+  }
+}
+
+/* new arrivals */
+
+.container{
+    margin-top: 80px;
+
+}
+
+.container .card{
+    margin: 25px;
+    
+}
+
+/* accordion */
+
+#accordion{
+    /* height: 80vh; */
+    background: linear-gradient(to top left,rgba(228, 211, 211, 0.1),rgb(250, 220, 170)),url(./Images.html/gif-img.jpeg);
+    background-size: contain;
+}
+bg
+
+#accordion .accordion-image img{
+    filter: drop-shadow(20px 20px 10px rgba(171, 231, 159, 0.3));
+}
+    
+#products .card img{
+    height: 40vh;
+}
+
+/* about us */
+
+.about-section{
+    text-align: justify;
+}
+
+#team .container-about{
+    padding: 20px 50px;
+}
+#team .container-about .card-about{
+    width: 350px;
+    height: 470px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#team .container-about .card-about img{
+    border-radius:15px ;
+}
